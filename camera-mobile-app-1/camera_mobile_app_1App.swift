@@ -6,12 +6,27 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct camera_mobile_app_1App: App {
+    @StateObject private var userViewModel = UserViewModel()
+    @StateObject private var nutritionViewModel = NutritionViewModel()
+    
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if userViewModel.isAuthenticated {
+                MainTabView()
+                    .environmentObject(userViewModel)
+                    .environmentObject(nutritionViewModel)
+            } else {
+                WelcomeView()
+                    .environmentObject(userViewModel)
+            }
         }
     }
 }
