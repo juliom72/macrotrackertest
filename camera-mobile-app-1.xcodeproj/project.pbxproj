@@ -6,6 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BA3D98432F3F119100E9CEF2 /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = BA3D98422F3F119100E9CEF2 /* FirebaseAI */; };
+		BA3D98452F3F119100E9CEF2 /* FirebaseAILogic in Frameworks */ = {isa = PBXBuildFile; productRef = BA3D98442F3F119100E9CEF2 /* FirebaseAILogic */; };
+		BA3D98472F3F119100E9CEF2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BA3D98462F3F119100E9CEF2 /* FirebaseAnalytics */; };
+		BA3D98492F3F119100E9CEF2 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = BA3D98482F3F119100E9CEF2 /* FirebaseAnalyticsCore */; };
+		BA3D984B2F3F119100E9CEF2 /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = BA3D984A2F3F119100E9CEF2 /* FirebaseAnalyticsIdentitySupport */; };
+		BA3D984D2F3F128400E9CEF2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BA3D984C2F3F128400E9CEF2 /* FirebaseAuth */; };
+		BA3D984F2F3F128400E9CEF2 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = BA3D984E2F3F128400E9CEF2 /* FirebaseCore */; };
+		BA3D98512F3F128400E9CEF2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BA3D98502F3F128400E9CEF2 /* FirebaseFirestore */; };
+		BA3D98542F3F169F00E9CEF2 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = BA3D98532F3F169F00E9CEF2 /* GoogleSignIn */; };
+		BA3D98582F3F180600E9CEF2 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3D98562F3F172200E9CEF2 /* AuthenticationServices.framework */; };
+		BA3D985E2F40523600E9CEF2 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BA3D985D2F40523600E9CEF2 /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BA3D97F12F3C67BF00E9CEF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +41,25 @@
 		BA3D97E32F3C67BE00E9CEF2 /* camera-mobile-app-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "camera-mobile-app-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3D97F02F3C67BF00E9CEF2 /* camera-mobile-app-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "camera-mobile-app-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3D97FA2F3C67BF00E9CEF2 /* camera-mobile-app-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "camera-mobile-app-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3D98562F3F172200E9CEF2 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BA3D985C2F3F200B00E9CEF2 /* Exceptions for "camera-mobile-app-1" folder in "camera-mobile-app-1" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BA3D97E22F3C67BE00E9CEF2 /* camera-mobile-app-1 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BA3D97E52F3C67BE00E9CEF2 /* camera-mobile-app-1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BA3D985C2F3F200B00E9CEF2 /* Exceptions for "camera-mobile-app-1" folder in "camera-mobile-app-1" target */,
+			);
 			path = "camera-mobile-app-1";
 			sourceTree = "<group>";
 		};
@@ -52,6 +80,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3D98452F3F119100E9CEF2 /* FirebaseAILogic in Frameworks */,
+				BA3D984D2F3F128400E9CEF2 /* FirebaseAuth in Frameworks */,
+				BA3D984B2F3F119100E9CEF2 /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				BA3D98432F3F119100E9CEF2 /* FirebaseAI in Frameworks */,
+				BA3D984F2F3F128400E9CEF2 /* FirebaseCore in Frameworks */,
+				BA3D98512F3F128400E9CEF2 /* FirebaseFirestore in Frameworks */,
+				BA3D98582F3F180600E9CEF2 /* AuthenticationServices.framework in Frameworks */,
+				BA3D98472F3F119100E9CEF2 /* FirebaseAnalytics in Frameworks */,
+				BA3D98492F3F119100E9CEF2 /* FirebaseAnalyticsCore in Frameworks */,
+				BA3D98542F3F169F00E9CEF2 /* GoogleSignIn in Frameworks */,
+				BA3D985E2F40523600E9CEF2 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +117,7 @@
 				BA3D97E52F3C67BE00E9CEF2 /* camera-mobile-app-1 */,
 				BA3D97F32F3C67BF00E9CEF2 /* camera-mobile-app-1Tests */,
 				BA3D97FD2F3C67BF00E9CEF2 /* camera-mobile-app-1UITests */,
+				BA3D98552F3F172200E9CEF2 /* Frameworks */,
 				BA3D97E42F3C67BE00E9CEF2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +130,14 @@
 				BA3D97FA2F3C67BF00E9CEF2 /* camera-mobile-app-1UITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3D98552F3F172200E9CEF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA3D98562F3F172200E9CEF2 /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +160,16 @@
 			);
 			name = "camera-mobile-app-1";
 			packageProductDependencies = (
+				BA3D98422F3F119100E9CEF2 /* FirebaseAI */,
+				BA3D98442F3F119100E9CEF2 /* FirebaseAILogic */,
+				BA3D98462F3F119100E9CEF2 /* FirebaseAnalytics */,
+				BA3D98482F3F119100E9CEF2 /* FirebaseAnalyticsCore */,
+				BA3D984A2F3F119100E9CEF2 /* FirebaseAnalyticsIdentitySupport */,
+				BA3D984C2F3F128400E9CEF2 /* FirebaseAuth */,
+				BA3D984E2F3F128400E9CEF2 /* FirebaseCore */,
+				BA3D98502F3F128400E9CEF2 /* FirebaseFirestore */,
+				BA3D98532F3F169F00E9CEF2 /* GoogleSignIn */,
+				BA3D985D2F40523600E9CEF2 /* GoogleSignInSwift */,
 			);
 			productName = "camera-mobile-app-1";
 			productReference = BA3D97E32F3C67BE00E9CEF2 /* camera-mobile-app-1.app */;
@@ -195,6 +253,10 @@
 			);
 			mainGroup = BA3D97DA2F3C67BE00E9CEF2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BA3D98412F3F07E400E9CEF2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				BA3D98522F3F169F00E9CEF2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BA3D97E42F3C67BE00E9CEF2 /* Products */;
 			projectDirPath = "";
@@ -393,10 +455,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "camera-mobile-app-1/camera-mobile-app-1.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DUV8TPBAG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "camera-mobile-app-1/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MacroTracker;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to take photos and videos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -420,10 +487,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "camera-mobile-app-1/camera-mobile-app-1.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DUV8TPBAG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "camera-mobile-app-1/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MacroTracker;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to take photos and videos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -550,6 +622,78 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA3D98412F3F07E400E9CEF2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 12.7.0;
+			};
+		};
+		BA3D98522F3F169F00E9CEF2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA3D98422F3F119100E9CEF2 /* FirebaseAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA3D98412F3F07E400E9CEF2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAI;
+		};
+		BA3D98442F3F119100E9CEF2 /* FirebaseAILogic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA3D98412F3F07E400E9CEF2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAILogic;
+		};
+		BA3D98462F3F119100E9CEF2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA3D98412F3F07E400E9CEF2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BA3D98482F3F119100E9CEF2 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA3D98412F3F07E400E9CEF2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		BA3D984A2F3F119100E9CEF2 /* FirebaseAnalyticsIdentitySupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA3D98412F3F07E400E9CEF2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsIdentitySupport;
+		};
+		BA3D984C2F3F128400E9CEF2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA3D98412F3F07E400E9CEF2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BA3D984E2F3F128400E9CEF2 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA3D98412F3F07E400E9CEF2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		BA3D98502F3F128400E9CEF2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA3D98412F3F07E400E9CEF2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BA3D98532F3F169F00E9CEF2 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA3D98522F3F169F00E9CEF2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		BA3D985D2F40523600E9CEF2 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA3D98522F3F169F00E9CEF2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA3D97DB2F3C67BE00E9CEF2 /* Project object */;
 }
